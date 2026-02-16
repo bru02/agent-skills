@@ -27,6 +27,24 @@
 			"description": "React Native upgrade workflow covering updated templates, dependencies, and common pitfalls. Use when migrating a React Native app to a newer release.",
 			"source": "./",
 			"skills": ["./skills/upgrading-react-native"]
+		},
+		{
+			"name": "rn-new-architecture-migration",
+			"description": "React Native New Architecture migration guide focusing on XCFramework distribution for brownfield iOS apps. Covers bridge initialization, Hermes embedding, and Swift Package distribution.",
+			"source": "./",
+			"skills": ["./skills/rn-new-architecture-migration"]
+		},
+		{
+			"name": "rn-testing-and-debugging",
+			"description": "E2E testing framework comparison (Detox vs Maestro) and API failure simulation using MITMProxy. Covers CI setup, test authoring, and response overriding.",
+			"source": "./",
+			"skills": ["./skills/rn-testing-and-debugging"]
+		},
+		{
+			"name": "rn-native-ios-tooling",
+			"description": "iOS dependency manager comparison (SPM vs Carthage vs CocoaPods), OSS licensing tools for mobile apps, and Objective-C to Swift migration strategies.",
+			"source": "./",
+			"skills": ["./skills/rn-native-ios-tooling"]
 		}
 	]
 }
