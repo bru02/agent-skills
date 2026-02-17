@@ -29,12 +29,6 @@
 			"skills": ["./skills/upgrading-react-native"]
 		},
 		{
-			"name": "rn-new-architecture-migration",
-			"description": "React Native New Architecture migration guide focusing on XCFramework distribution for brownfield iOS apps. Covers bridge initialization, Hermes embedding, and Swift Package distribution.",
-			"source": "./",
-			"skills": ["./skills/rn-new-architecture-migration"]
-		},
-		{
 			"name": "rn-testing-and-debugging",
 			"description": "E2E testing framework comparison (Detox vs Maestro) and API failure simulation using MITMProxy. Covers CI setup, test authoring, and response overriding.",
 			"source": "./",
