@@ -42,11 +42,13 @@ cd "$APP_DIR" && npx expo-doctor
    - Treat `expo-modules` package versions as SDK-coupled; align them with Expo recommendations.
 2. Run health checks.
    - `npx expo-doctor`; resolve blocking issues first.
-3. If native folders are part of workflow, reconcile prebuild output.
+3. Migrate deprecated packages.
+   - If upgrading to SDK 55+ and `expo-av` is used for video: run [expo-av-migration.md](expo-av-migration.md).
+4. If native folders are part of workflow, reconcile prebuild output.
    - `npx expo prebuild --clean` (when applicable).
-4. Handle React 19 pairing.
+5. Handle React 19 pairing.
    - Run [react.md](react.md).
-5. Run [upgrade-verification.md](upgrade-verification.md) for manual regression checks and release gates.
+6. Run [upgrade-verification.md](upgrade-verification.md) for manual regression checks and release gates.
 
 ## Notes
 
@@ -59,6 +61,7 @@ cd "$APP_DIR" && npx expo-doctor
 - [upgrading-react-native.md](upgrading-react-native.md) - Routing and mode selection
 - [upgrade-helper-core.md](upgrade-helper-core.md) - Base upgrade workflow
 - [react.md](react.md) - React and React 19 alignment
+- [expo-av-migration.md](expo-av-migration.md) - Migrate video playback from expo-av to expo-video (SDK 55+)
 - [upgrade-verification.md](upgrade-verification.md) - Manual post-upgrade validation
 - [monorepo-singlerepo-targeting.md](monorepo-singlerepo-targeting.md) - Repo/app selection and command scoping
 

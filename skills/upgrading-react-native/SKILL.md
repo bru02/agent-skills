@@ -58,6 +58,7 @@ Reference these guidelines when:
 | [upgrading-dependencies.md][upgrading-dependencies] | Dependency compatibility checks and migration planning |
 | [react.md][react] | React and React 19 upgrade alignment rules |
 | [expo-sdk-upgrade.md][expo-sdk-upgrade] | Expo SDK-specific upgrade layer (conditional) |
+| [expo-av-migration.md][expo-av-migration] | Migrate video playback from expo-av to expo-video (SDK 55+) |
 | [upgrade-verification.md][upgrade-verification] | Manual post-upgrade verification checklist |
 | [monorepo-singlerepo-targeting.md][monorepo-singlerepo-targeting] | Monorepo and single-repo app targeting and command scoping |
 
@@ -70,6 +71,7 @@ Reference these guidelines when:
 | Need React/React 19 package alignment | [react.md][react] |
 | Need workflow routing first | [upgrading-react-native.md][upgrading-react-native] |
 | Need Expo SDK-specific steps | [expo-sdk-upgrade.md][expo-sdk-upgrade] |
+| Need to migrate expo-av video to expo-video | [expo-av-migration.md][expo-av-migration] |
 | Need manual regression validation | [upgrade-verification.md][upgrade-verification] |
 | Need repo/app command scoping | [monorepo-singlerepo-targeting.md][monorepo-singlerepo-targeting] |
 
@@ -78,5 +80,6 @@ Reference these guidelines when:
 [upgrading-dependencies]: references/upgrading-dependencies.md
 [react]: references/react.md
 [expo-sdk-upgrade]: references/expo-sdk-upgrade.md
+[expo-av-migration]: references/expo-av-migration.md
 [upgrade-verification]: references/upgrade-verification.md
 [monorepo-singlerepo-targeting]: references/monorepo-singlerepo-targeting.md

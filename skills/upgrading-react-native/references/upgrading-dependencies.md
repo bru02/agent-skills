@@ -27,6 +27,8 @@ npm ls --depth=0
    - `react-native-image-crop-picker` -> upgrade to `>=0.51.1`; if unstable, plan migration to `expo-image-picker` (confirm with user)
    - `react-native-network-logger` - lists `react` and `react-native` in peer deps as `*` which can be misleading. Upgrade to v2 if `target_version >= 0.79`.
    - `react-native-permissions` - upgrade to v5 if possible (requires RN 0.74+)
+   - `expo-av` (video) -> removed in SDK 55; migrate to `expo-video` using [expo-av-migration.md](expo-av-migration.md)
+   - `expo-av` (audio) -> removed in SDK 55; migrate to `expo-audio`
 4. Apply additional cleanup rules:
    - If `@rnx-kit/metro-resolver-symlinks` is present, remove it from deps and `metro.config.js` (Metro supports symlinks since 0.72)
    - If app uses `react-native-localize` timezone APIs and `@callstack/timezone-hermes-fix` is missing, ask whether to add it
